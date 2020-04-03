@@ -28,49 +28,49 @@ const App = () => {
       itemArray[0] !== "empty"
     ) {    setWinMessage("Game is Over");
 
-      return toast(itemArray[0]+" has won the won", { type: "success" });
+      return toast(itemArray[0]+" has won the game", { type: "success" });
     } else if (
       itemArray[3] !== "empty" &&
       itemArray[3] === itemArray[4] &&
       itemArray[4] === itemArray[5]
     ) {setWinMessage("Game is Over");
-      return toast(itemArray[3]+" has won the won", { type: "success" });
+      return toast(itemArray[3]+" has won the game", { type: "success" });
     } else if (
       itemArray[6] !== "empty" &&
       itemArray[6] === itemArray[7] &&
       itemArray[7] === itemArray[8]
     ) {setWinMessage("Game is Over");
-      return toast(itemArray[6]+" has won the won", { type: "success" });
+      return toast(itemArray[6]+" has won the game", { type: "success" });
     } else if (
       itemArray[0] !== "empty" &&
       itemArray[0] === itemArray[3] &&
       itemArray[3] === itemArray[6]
     ) {setWinMessage("Game is Over");
-      return toast(itemArray[0]+" has won the won", { type: "success" });
+      return toast(itemArray[0]+" has won the game", { type: "success" });
     } else if (
       itemArray[1] !== "empty" &&
       itemArray[1] === itemArray[4] &&
       itemArray[4] === itemArray[7]
     ) {setWinMessage("Game is Over");
-      return toast(itemArray[1]+" has won the won", { type: "success" });
+      return toast(itemArray[1]+" has won the game", { type: "success" });
     } else if (
       itemArray[2] !== "empty" &&
       itemArray[2] === itemArray[5] &&
       itemArray[5] === itemArray[8]
     ) {setWinMessage("Game is Over");
-      return toast(itemArray[2]+" has won the won", { type: "success" });
+      return toast(itemArray[2]+" has won the game", { type: "success" });
     } else if (
       itemArray[0] !== "empty" &&
       itemArray[0] === itemArray[4] &&
       itemArray[4] === itemArray[8]
     ) {setWinMessage("Game is Over");
-      return toast(itemArray[0]+" has won the won", { type: "success" });
+      return toast(itemArray[0]+" has won the game", { type: "success" });
     } else if (
       itemArray[2] !== "empty" &&
       itemArray[2] === itemArray[4] &&
       itemArray[4] === itemArray[6]
     ) {setWinMessage("Game is Over");
-      return toast(itemArray[2]+" has won the won", { type: "success" });
+      return toast(itemArray[2]+" has won the game", { type: "success" });
     }
     var c=0
      for(var i=0;i<9;i++){
