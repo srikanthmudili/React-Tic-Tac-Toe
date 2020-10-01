@@ -1,22 +1,37 @@
 body {
-  background-color: #000000;
+    background-color: #121212;
+    border: solid 1px #00d8ff;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 2px;
+}
+
+.reload-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    border: dotted 1px whitesmoke;
+    border-radius: 12px;
+    padding: 16px;
 }
 
 .box {
-  background: #00d8ff;
-  width: auto;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background: #00d8ff;
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .icon {
-  font-size: 35px;
-  color: #ffffff;
+    font-size: 35px;
+    color: #ffffff;
 }
